@@ -1,0 +1,12 @@
+package eus.birt.dam.ad04.main;
+
+import eus.birt.dam.ad04.config.JpaUtil;
+import jakarta.persistence.EntityManagerFactory;
+
+public class MainApp {
+    public static void main(String[] args) {
+        try (EntityManagerFactory emf = JpaUtil.crearFactory()) {
+            System.out.println("Mapeo validado correctamente.");
+        }
+    }
+}

@@ -1,0 +1,7 @@
+package eus.birt.dam.ad04.main;
+
+import java.util.Scanner;
+
+public class MainApp {
+
+}
